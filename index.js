@@ -124,7 +124,7 @@ async function startNazeBot() {
 		//waWebSocketUrl: 'wss://web.whatsapp.com/ws',
 		cachedGroupMetadata: async (jid) => groupCache.get(jid),
 		shouldSyncHistoryMessage: msg => {
-			console.log(`\x1b[32mMemuat Chat [${msg.progress}%]\x1b[39m`);
+			console.log(`\x1b[32mMemuat Chat [${msg.progress || 0}%]\x1b[39m`);
 			return !!msg.syncType;
 		},
 		transactionOpts: {
