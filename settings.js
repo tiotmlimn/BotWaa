@@ -10,9 +10,9 @@ const chalk = require('chalk');
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
 global.owner = ['6282113821188','6281356484612','6285773557984']
-global.packname = 'Bot WhatsApp'
-global.author = 'Nazedev'
-global.botname = 'Naze Bot'
+global.packname = 'WHOSTIO MULTI DEVICE'
+global.author = 'WHOSTIO'
+global.botname = 'WHOSTIO'
 global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
 global.tempatDB = 'database.json'
 global.pairing_code = true
@@ -26,9 +26,9 @@ global.fake = {
 }
 
 global.my = {
-	yt: 'https://youtube.com/c/Nazedev',
-	gh: 'https://github.com/nazedev',
-	gc: 'https://chat.whatsapp.com/Hx9vcBVhbc04KLVGPFtH2R',
+	yt: 'https://youtube.com/c/whostio',
+	gh: 'https://github.com/tiotmlimn',
+	gc: ' https://chat.whatsapp.com/IBas5flNs0SDfxBQyjOB34',
 	ch: '120363250409960161@newsletter',
 }
 
